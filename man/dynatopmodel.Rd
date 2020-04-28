@@ -3,7 +3,6 @@
 \docType{package}
 \name{dynatopmodel}
 \alias{dynatopmodel}
-\alias{dynatopmodel-package}
 \title{Implementation of the Dynamic TOPMODEL hydrological model.}
 \description{
 A native R implementation and enhancement of Dynamic TOPMODEL, an extension to

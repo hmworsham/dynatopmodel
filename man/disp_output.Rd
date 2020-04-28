@@ -4,10 +4,21 @@
 \alias{disp_output}
 \title{Display output of a Dynamic TOPMODEL  run}
 \usage{
-disp_output(qsim, rain, evap = NULL, qobs = NULL, tm = NULL,
-  start = min(index(qsim)), end = max(index(qsim)),
-  par = get.disp.par(lwd.rain = 3, qint = 0.1), show.maxima = FALSE,
-  freq = "day", pch.qsim = "+", pch.obs = "*", ...)
+disp_output(
+  qsim,
+  rain,
+  evap = NULL,
+  qobs = NULL,
+  tm = NULL,
+  start = min(index(qsim)),
+  end = max(index(qsim)),
+  par = get.disp.par(lwd.rain = 3, qint = 0.1),
+  show.maxima = FALSE,
+  freq = "day",
+  pch.qsim = "+",
+  pch.obs = "*",
+  ...
+)
 }
 \arguments{
 \item{qsim}{Time series of simulated discharges.}

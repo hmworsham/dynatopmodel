@@ -4,8 +4,15 @@
 \alias{build_chans}
 \title{Construct a raster of channel locations from vector or topographic data}
 \usage{
-build_chans(dem, drn, chan.width = 1, atb = NULL, buffer = 10,
-  atb.thresh = 0.8, single.chan = TRUE)
+build_chans(
+  dem,
+  drn,
+  chan.width = 1,
+  atb = NULL,
+  buffer = 10,
+  atb.thresh = 0.8,
+  single.chan = TRUE
+)
 }
 \arguments{
 \item{dem}{raster  Elevation raster (DEM) using a projected coordinate system (e.g UTM) and regular grid spacing. Not required if atb raster supplied.}

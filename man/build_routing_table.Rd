@@ -4,8 +4,13 @@
 \alias{build_routing_table}
 \title{Generate a network routing table}
 \usage{
-build_routing_table(dem, chans = NULL, outlet = NULL, breaks = 5,
-  len.fun = flow.lens)
+build_routing_table(
+  dem,
+  chans = NULL,
+  outlet = NULL,
+  breaks = 5,
+  len.fun = flow.lens
+)
 }
 \arguments{
 \item{dem}{Elevation raster using a projected coordinate system (e.g UTM) and a regular grid spacing. Areas outside the catchment should be set to NA}

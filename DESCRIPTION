@@ -9,12 +9,12 @@ Description: A native R implementation and enhancement of the Dynamic TOPMODEL
     semi-distributed hydrological model. Includes some preprocessing, utility and
     routines for displaying outputs.
 Depends: R (>= 3.1),
-Imports: deSolve, maptools, rgdal, rgeos, zoo, xts, sp, raster,
+Imports: deSolve, rgdal, rgeos, zoo, xts, sp, raster,
         lubridate, topmodel, methods, grDevices, stats, utils,
-        graphics, tools
+        graphics
 License: GPL-2
 LazyData: true
-RoxygenNote: 6.0.1
+RoxygenNote: 7.1.0
 NeedsCompilation: no
 Packaged: 2018-01-19 14:29:05 UTC; metcalfp
 Repository: CRAN

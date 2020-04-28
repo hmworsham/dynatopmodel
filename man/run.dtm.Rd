@@ -4,10 +4,27 @@
 \alias{run.dtm}
 \title{Run Dynamic TOPMODEL against hydrometric data and a catchment discretisation}
 \usage{
-run.dtm(groups, weights, rain, routing, upstream_inputs = NULL, qobs = NULL,
-  qt0 = 1e-04, pe = NULL, dt = NULL, ntt = 2, ichan = 1,
-  Wsurf = weights, Wover = weights, i.out = ichan[1], dqds = NULL,
-  sim.start = NA, sim.end = NA, disp.par = get.disp.par(), ...)
+run.dtm(
+  groups,
+  weights,
+  rain,
+  routing,
+  upstream_inputs = NULL,
+  qobs = NULL,
+  qt0 = 1e-04,
+  pe = NULL,
+  dt = NULL,
+  ntt = 2,
+  ichan = 1,
+  Wsurf = weights,
+  Wover = weights,
+  i.out = ichan[1],
+  dqds = NULL,
+  sim.start = NA,
+  sim.end = NA,
+  disp.par = get.disp.par(),
+  ...
+)
 }
 \arguments{
 \item{groups}{Data frame of areal group definitions along with their hydrological parameters (see Metcalfe et al., 2015)}

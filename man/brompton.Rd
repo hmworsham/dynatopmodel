@@ -4,8 +4,10 @@
 \name{brompton}
 \alias{brompton}
 \title{Topographic and observation data for running Dynamic TOPMODEL.}
-\format{An environment comprising the DEM, river network, observed flows from stage data reconstructed at the EA gauge at Water End, and hydrometric (rainfall and pe)
-necessary to run the model.}
+\format{
+An environment comprising the DEM, river network, observed flows from stage data reconstructed at the EA gauge at Water End, and hydrometric (rainfall and pe)
+necessary to run the model.
+}
 \usage{
 data(brompton)
 }

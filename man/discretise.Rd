@@ -4,10 +4,20 @@
 \alias{discretise}
 \title{Discrete a catchment into hydrological response units (HRUs)}
 \usage{
-discretise(layers, chans, cuts = list(a = 10), area.thresh = 2/100,
-  order.by = names(cuts)[[1]], riv.cells.na = FALSE, renumber = FALSE,
-  order = FALSE, burn.hrus = NULL, chan.width = 5, remove.areas = TRUE,
-  hrus = NULL)
+discretise(
+  layers,
+  chans,
+  cuts = list(a = 10),
+  area.thresh = 2/100,
+  order.by = names(cuts)[[1]],
+  riv.cells.na = FALSE,
+  renumber = FALSE,
+  order = FALSE,
+  burn.hrus = NULL,
+  chan.width = 5,
+  remove.areas = TRUE,
+  hrus = NULL
+)
 }
 \arguments{
 \item{layers}{A multi-band raster (stack) comprising the catchment data. This should be in a projected coordinate system (or none) and have regular cells. The first layer should be the elevation raster, and subsequent (named) layers should supply the landscape data drawn in to create the discretisation}
@@ -76,6 +86,6 @@ layers <- addLayer(brompton$dem, 2000-brompton$flowdists)
 disc <- discretise(layers, cuts=c(flowdists=10), chans=chans, area.thresh=0.5/100)
 rm(chans)
 rm(layers)
-write.table(disc$groups, sep="\\t", row.names=FALSE)
+write.table(disc$groups, sep="\t", row.names=FALSE)
 }
 }
