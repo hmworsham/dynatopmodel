@@ -1,10 +1,10 @@
 Package: dynatopmodel
 Type: Package
 Title: Implementation of the Dynamic TOPMODEL Hydrological Model
-Version: 1.2.1
-Date: 2018-01-19
+Version: 1.2.2
+Date: 2020-04-28
 Author: Peter Metcalfe, Keith Beven and Jim Freer
-Maintainer: Peter Metcalfe <p.metcalfe@lancaster.ac.uk>
+Maintainer: Paul Smith <paul@waternumbers.co.uk>
 Description: A native R implementation and enhancement of the Dynamic TOPMODEL
     semi-distributed hydrological model. Includes some preprocessing, utility and
     routines for displaying outputs.
