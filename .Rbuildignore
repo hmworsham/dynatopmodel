@@ -2,7 +2,6 @@ $.git$
 .directory
 .Rhistory
 ^docs$
-^cran-comments\.md$ # Comments for CRAN submission
 ^\.travis\.yml$
 ^appveyor\.yml$
 

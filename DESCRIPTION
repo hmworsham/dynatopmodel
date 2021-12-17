@@ -8,11 +8,12 @@ Maintainer: Paul Smith <paul@waternumbers.co.uk>
 Description: A native R implementation and enhancement of the Dynamic TOPMODEL
     semi-distributed hydrological model. Includes some preprocessing, utility and
     routines for displaying outputs.
-Depends: R (>= 3.1),
+Depends: R (>= 3.5.0),
 Imports: deSolve, rgdal, rgeos, zoo, xts, sp, raster,
         lubridate, topmodel, methods, grDevices, stats, utils,
         graphics
 License: GPL-2
 LazyData: true
-RoxygenNote: 7.1.0
+RoxygenNote: 7.1.2
 NeedsCompilation: no
+Encoding: UTF-8
